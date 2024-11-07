@@ -9,7 +9,14 @@ export default {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				'gold': "#F4A850",
+				'gray': "#7A7A7A",
+				'blue': '#6EC1E4',
+				'background': '#EDEDED'
+			}
+		},
 	},
 	plugins: [
 		forms,

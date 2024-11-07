@@ -6,8 +6,11 @@
 	import Footer from './footer/+page.svelte'
 </script>
 
-<Nav />
+	<div class="fixed top-0 z-40 w-full">
+		<Nav />
+	</div>
+	
+	<Home />
+	
+	<Footer />
 
-<Home />
-
-<Footer />
