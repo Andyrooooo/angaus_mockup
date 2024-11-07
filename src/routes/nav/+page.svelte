@@ -139,7 +139,7 @@
     
      <!------------- Mobile Menu --------------------------------->
     {#if menu}
-        <div transition:slide class=" w-full absolute top-[4.8rem] -z-10 flex justify-center text-white">
+        <div transition:slide class=" w-full absolute {navBar ? ' top-[4.4rem]' : ' top-[4.8rem]'} -z-10 flex justify-center text-white ">
             <div class="text-center w-full bg-black mx-4 py-12 border border-zinc-900 rounded-b-md">
                 <div class="mb-3">
                     <a on:click={navLinks} class="cursor-pointer block hover:text-gold">Home</a>
