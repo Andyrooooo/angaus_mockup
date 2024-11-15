@@ -108,7 +108,7 @@
                             </div>
     
                             <div class="mb-2">
-                                <a on:click={navLinks} class="hover:text-gold cursor-pointer block">Booking</a>
+                                <a href="/booking" class="hover:text-gold cursor-pointer block">Booking</a>
                             </div>
                         </div>
                     {/if}
